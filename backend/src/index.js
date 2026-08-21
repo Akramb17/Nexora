@@ -5,7 +5,7 @@ import "dotenv/config";
 import User from "./models/user.model.js";
 import {connectDB} from "./lib/db.js"
 import { clerkMiddleware } from '@clerk/express'
-import job from "./jobs/index.js";
+import job from "./cron.js";
 
 
 import fs from "fs";
